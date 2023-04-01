@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">kindle_app</string>
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <!--TODO ENTER YOUR APP ID BELOW-->
+    <string name="facebook_app_id"/>
+    <!--TODO ENTER YOUR APP ID BELOW (eg: fb0123456789)-->
+    <string name="fb_login_protocol_scheme">fb</string>
+    <!--TODO ENTER YOUR Client Token BELOW-->
+    <string name="facebook_client_token"/>
+    <string name="lbl_x1">x1</string>
+    <string name="lbl_x2">x2</string>
+    <string name="lbl_12345_qwerty">12345@Qwerty!</string>
+    <string name="lbl_follow_us">FOLLOW US!</string>
+    <string name="msg_status_arrived">Status: Arrived Tokyo, JP sorting center</string>
+    <string name="lbl_reset_password">RESET PASSWORD</string>
+    <string name="msg_edit_product_su">Edit Product Successful!</string>
+    <string name="msg_upload_photo_s">Upload Photo/s of Product</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_customer_name">Customer Name</string>
+    <string name="lbl_order_number">Order Number:</string>
+    <string name="msg_save_successful">Save Successful!</string>
+    <string name="msg_01_01_2023_11_5">01-01-2023 11:59</string>
+    <string name="lbl_add_image">Add Image</string>
+    <string name="msg_application_sup">Application Support</string>
+    <string name="lbl_log_out">Log out</string>
+    <string name="msg_item_name_7">ITEM NAME
+
+\u20b1  750.00</string>
+    <string name="lbl_50">50</string>
+    <string name="msg_item_name_9">ITEM NAME
+
+\u20b1  999.00</string>
+    <string name="lbl_we_re_on_it">We\u2019re on it!</string>
+    <string name="lbl_sex">Sex</string>
+    <string name="msg_quantity_of_pro">Quantity of Product</string>
+    <string name="msg_customer_feedba">Customer Feedback</string>
+    <string name="msg_sign_in_with_gm">Sign in with Gmail</string>
+    <string name="lbl_cherry">Cherry</string>
+    <string name="lbl_size">Size</string>
+    <string name="msg_item_name_3">ITEM NAME
+
+\u20b1  3,000.00 
+      1,500.00</string>
+    <string name="msg_item_name_2">ITEM NAME
+
+\u20b1  2,500.00</string>
+    <string name="msg_item_name_1">ITEM NAME
+
+\u20b1  1,500.00</string>
+    <string name="lbl_198_00">\u20b1 198.00</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_120_ml">120 mL</string>
+    <string name="msg_0000_0000_0000">0000 0000 0000 0000</string>
+    <string name="lbl_48">48</string>
+    <string name="lbl_total_items">Total Items:</string>
+    <string name="lbl_230202fff22ff2">230202FFF22FF2</string>
+    <string name="msg_order_number_2">Order Number: 2138275627</string>
+    <string name="msg_personal_inform2">Personal Information has been saved.
+Click anywhere to continue.</string>
+    <string name="msg_total_1_item2">Total (1 item):            \u20b1 90.00  </string>
+    <string name="lbl_230202ddd11cc1">230202DDD11CC1</string>
+    <string name="msg_please_enter_yo">Please enter your email address. You will receive a link to create a new password via email.</string>
+    <string name="msg_of_kindle_accou">of Kindle accounts.</string>
+    <string name="msg_sign_in_with_fa">Sign in with Facebook</string>
+    <string name="msg_successful_crea">Successful Creation!</string>
+    <string name="msg_total_1_item">Total (1 item):            \u20b1 98.00  </string>
+    <string name="lbl_order_id">Order ID:</string>
+    <string name="lbl_delete_product">Delete Product?</string>
+    <string name="msg_your_package_ha">Your package has been delivered!
+Thank you for purchasing from our store!
+We hope in serving you again in the future!</string>
+    <string name="lbl_user">User</string>
+    <string name="lbl_416_00">\u20b1 416.00</string>
+    <string name="lbl_return_to_home">Return to Home</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_new_arrivals">New Arrivals!</string>
+    <string name="msg_item_name_99">ITEM NAME
+
+\u20b1 999.00</string>
+    <string name="lbl_091212344567">091212344567</string>
+    <string name="lbl_administrator">Administrator</string>
+    <string name="lbl_overall_sales">OVERALL SALES</string>
+    <string name="lbl_via">via</string>
+    <string name="lbl_20">20</string>
+    <string name="lbl_buy_again">Buy again</string>
+    <string name="msg_kindle_scented">Kindle Scented Soy Wax Melts</string>
+    <string name="lbl_22">2</string>
+    <string name="lbl_kindle_ph">KINDLE PH</string>
+    <string name="lbl_750_00">\u20b1  750.00</string>
+    <string name="lbl_kindle">Kindle </string>
+    <string name="msg_confirm_new_pas">Confirm New Password</string>
+    <string name="lbl_scents_cherry">Scents: Cherry</string>
+    <string name="msg_your_active_pay">Your Active Payment Methods</string>
+    <string name="lbl_transactions2">Transactions</string>
+    <string name="msg_transaction_per">Transaction per Day</string>
+    <string name="lbl_pinterest">Pinterest</string>
+    <string name="msg_clear_personal">Clear Personal Information?</string>
+    <string name="lbl_10">10</string>
+    <string name="lbl_sign_up">Sign up</string>
+    <string name="lbl_sales_per_day">SALES PER DAY</string>
+    <string name="lbl_15">15</string>
+    <string name="lbl_fresh_bamboo">Fresh Bamboo</string>
+    <string name="msg_create_an_accou">Create an account</string>
+    <string name="lbl_php_193">PHP 193</string>
+    <string name="lbl_privacy_policy">privacy policy</string>
+    <string name="lbl_log_in_as">Log in as </string>
+    <string name="msg_scents_strawbe">Scents: Strawberry</string>
+    <string name="lbl_log_in3">Log In</string>
+    <string name="lbl_log_in2">LOG IN</string>
+    <string name="lbl_to_receive">To Receive</string>
+    <string name="msg_choose_your_pay">Choose your Payment Method</string>
+    <string name="lbl_add_to_cart">Add to Cart</string>
+    <string name="msg_your_payment_ha">Your payment has been received and
+being processed.
+Thank you for shopping with us!</string>
+    <string name="msg_what_is_kindle">What is KINDLE PH?</string>
+    <string name="lbl_policy">Policy</string>
+    <string name="lbl_3_items">3 Items</string>
+    <string name="lbl_mm_yy">MM/YY</string>
+    <string name="msg_are_you_sure_yo2">Are you sure you want to log out of your account?</string>
+    <string name="lbl_98_00">\u20b1 98.00</string>
+    <string name="lbl_facebook_inc">Facebook Inc.</string>
+    <string name="lbl_received">Received </string>
+    <string name="msg_create_product">Create Product Succesful!</string>
+    <string name="msg_color_and_size">Color and Size: Gold 120 ml</string>
+    <string name="lbl_3000_002">\u20b13000.00                                         
+    </string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_yearly">Yearly</string>
+    <string name="msg_short_descripti">Short Description about the Product</string>
+    <string name="lbl_help">Help</string>
+    <string name="lbl_orders">Orders</string>
+    <string name="msg_debit_or_credit">Debit or Credit Card</string>
+    <string name="lbl_place_order">Place Order</string>
+    <string name="msg_create_new_prod">Create New Product</string>
+    <string name="lbl_gmail">Gmail</string>
+    <string name="msg_total_order_32">Total Order (3 Item/s):</string>
+    <string name="lbl_create_listing">Create Listing</string>
+    <string name="lbl_back">Back</string>
+    <string name="lbl_no">No</string>
+    <string name="msg_welcome_adminis">Welcome Administrator. Please Log In to Access the Administrator Side of the Application.</string>
+    <string name="lbl_50_00">\u20b1 50.00</string>
+    <string name="msg_password_change">Password Changed Successfully.
+Click anywhere to continue.</string>
+    <string name="lbl_transactions">Transactions </string>
+    <string name="lbl2">\u20b1  </string>
+    <string name="lbl_not_now">Not now</string>
+    <string name="lbl3">\u20b1</string>
+    <string name="lbl_first_name">First Name</string>
+    <string name="lbl_help_center">Help Center</string>
+    <string name="msg_lorem_ipsum_dol3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae ex sit amet ligula pretium pulvinar a at elit. Nunc mollis nisi nibh. Mauris suscipit ac neque quis tincidunt. Mauris quis quam vehicula, ornare velit a, porttitor ligula sollicitudinLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae ex sit amet ligula pretium pulvinar a at elit. Nunc mollis nisi nibh. Mauris suscipit ac neque quis tincidunt. </string>
+    <string name="msg_lorem_ipsum_dol2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae ex sit amet ligula pretium pulvinar a at elit. Nunc mollis nisi nibh. Mauris suscipit ac neque quis tincidunt. Mauris quis quam vehicula, ornare velit a, porttitor ligula sollicitudin</string>
+    <string name="lbl_address2">Address</string>
+    <string name="lbl_maya_e_wallet">Maya e-Wallet</string>
+    <string name="msg_password_has_be">Password has been changed.
+Click anywhere to continue.</string>
+    <string name="msg_preferred_payme">Preferred Payment Choice not here?</string>
+    <string name="msg_connected_socia">Connected Socials</string>
+    <string name="lbl_size_50ml">Size: 50ml</string>
+    <string name="lbl_go_back">Go Back</string>
+    <string name="msg_forgot_password">Forgot Password?</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="msg_stocks_left_ou">Stocks left: Out of Stock</string>
+    <string name="lbl_my">My </string>
+    <string name="lbl_monthly">Monthly</string>
+    <string name="lbl_our_story">OUR STORY</string>
+    <string name="msg_homepage_previe">Homepage Preview</string>
+    <string name="lbl_old_password">Old Password</string>
+    <string name="lbl_weekly">Weekly</string>
+    <string name="lbl_expiration">Expiration</string>
+    <string name="lbl_continue_on">Continue on</string>
+    <string name="lbl_scented_candle">Scented Candle</string>
+    <string name="msg_if_you_wish_to">If you wish to add another product, click YES. Otherwise, click NO to return to the Dashboard Page.</string>
+    <string name="lbl_product_images">Product Images</string>
+    <string name="lbl_999_003">\u20b1999.00                                         
+    </string>
+    <string name="lbl_lemon">Lemon</string>
+    <string name="msg_already_have_an2">Already have an account? </string>
+    <string name="lbl_999_002">\u20b1 999.00</string>
+    <string name="msg_add_payment_met">Add Payment Method</string>
+    <string name="msg_want_more_payme">Want More Payment Methods?</string>
+    <string name="lbl_my_orders">My Orders</string>
+    <string name="msg_february_31_20">February 31, 2025</string>
+    <string name="msg_total_4_item">Total (4 item):         \u20b1 456.00  </string>
+    <string name="msg_city_region_p">City, Region, Postal Code</string>
+    <string name="lbl_my_profile">My Profile</string>
+    <string name="lbl_1_500_002">\u20b1  1,500.00</string>
+    <string name="msg_you_ve_successf">You\u2019ve successfully added the 
+product to your cart!
+Please proceed to the Checkout</string>
+    <string name="lbl_1_500_003">\u20b11,500.00                                         
+    </string>
+    <string name="lbl_account_name">Account Name</string>
+    <string name="lbl_size_30g">Size: 30g</string>
+    <string name="lbl_products_sold2">Products Sold</string>
+    <string name="lbl_item_name">Item Name</string>
+    <string name="msg_your_product_is">"Your product is on its way!
+We've packaged your order and it will be 
+shipped out to you shortly!"</string>
+    <string name="lbl_total_price">Total Price:</string>
+    <string name="lbl_edit2">Edit </string>
+    <string name="lbl_paymaya">PayMaya</string>
+    <string name="lbl_40_00">\u20b1 40.00</string>
+    <string name="lbl_create_account">Create Account</string>
+    <string name="lbl_total">Total: </string>
+    <string name="lbl_received2">Received</string>
+    <string name="lbl_today">Today</string>
+    <string name="lbl_300_00">\u20b1 300.00</string>
+    <string name="msg_mobile_number_o">Mobile number or email</string>
+    <string name="msg_log_in_as_admin">Log in as Administrator</string>
+    <string name="lbl_and">and</string>
+    <string name="lbl_username12345">username12345!</string>
+    <string name="lbl_230202bbb11bb1">230202BBB11BB1</string>
+    <string name="lbl">**************</string>
+    <string name="msg_kindle_scented2">Kindle Scented Soy Wax Melts
+</string>
+    <string name="lbl_email">Email</string>
+    <string name="msg_all_details_abo">All details about this product will be lost. Click anywhere to cancel, otherwise, click Delete to confirm.</string>
+    <string name="lbl_1">1</string>
+    <string name="lbl_dimensions">Dimensions</string>
+    <string name="msg_log_out_of_acco">Log Out of Account?</string>
+    <string name="lbl_payment_method">Payment Method</string>
+    <string name="msg_your_product_ha">Your product has been edited successfully. Click \u2018Okay\u2019 to continue.</string>
+    <string name="lbl_forgot_email">Forgot email?</string>
+    <string name="msg_sign_in_failed">Sign in failed - incorrect username or password</string>
+    <string name="lbl_2_500_00">\u20b1  2,500.00</string>
+    <string name="msg_emergency_conta2">Emergency Contact Number</string>
+    <string name="msg_kindle_memorial">Kindle Memorial Candles</string>
+    <string name="lbl_all">All</string>
+    <string name="msg_terms_of_servic">terms of service</string>
+    <string name="msg_shipping_inform">Shipping Information</string>
+    <string name="msg_you_have_succes">You have successfully created your account. You may now log in using your newly made account to view what\u2019s in store for you in this app!</string>
+    <string name="lbl_delete_account">Delete Account</string>
+    <string name="lbl_total2">Total:</string>
+    <string name="lbl_ordered_on">Ordered on:</string>
+    <string name="lbl_scent">Scent</string>
+    <string name="lbl_l">L</string>
+    <string name="lbl_58_00">\u20b1 58.00</string>
+    <string name="lbl_lavender">Lavender</string>
+    <string name="lbl_email_address">Email Address</string>
+    <string name="msg_confirm_passwor">Confirm Password</string>
+    <string name="lbl_memory_candle">Memory Candle</string>
+    <string name="msg_need_an_account2">Need an Account? </string>
+    <string name="lbl_my_sales">My Sales</string>
+    <string name="lbl_w">W</string>
+    <string name="lbl_456_00">\u20b1 456.00</string>
+    <string name="lbl_email_or_phone">Email or phone</string>
+    <string name="lbl_x">x</string>
+    <string name="msg_kindle_memory_c">Kindle Memory Candles</string>
+    <string name="lbl_new_password">New Password</string>
+    <string name="lbl_vanilla">Vanilla</string>
+    <string name="lbl_cvv">CVV</string>
+    <string name="msg_view_transactio">View Transactions</string>
+    <string name="lbl_edit">Edit</string>
+    <string name="msg_street_name_sub">Street Name/Subdivision, Barangay</string>
+    <string name="msg_enter_your_11_d">Enter your 11-digit number</string>
+    <string name="msg_sign_in_failed2">Sign in failed -</string>
+    <string name="lbl_change">Change</string>
+    <string name="lbl_username">Username</string>
+    <string name="lbl_h">H</string>
+    <string name="lbl_100_00">\u20b1 100.00</string>
+    <string name="msg_kindle_soy_wax">Kindle Soy Wax Melts</string>
+    <string name="msg_are_you_sure_y">Are you sure 
+you want 
+to 
+proceed with this order?</string>
+    <string name="lbl_last_name">Last Name</string>
+    <string name="msg_homepage_for_us">Homepage for Users Preview</string>
+    <string name="msg_description_of">Description of Product</string>
+    <string name="msg_need_an_account">Need an Account? Sign up</string>
+    <string name="lbl_123">123</string>
+    <string name="lbl_1_500_00">      1,500.00</string>
+    <string name="msg_are_you_sure_yo">Are you sure you want to delete your account? Deleting this account will erase all details and information saved to your account.</string>
+    <string name="lbl_to_pay">To Pay</string>
+    <string name="lbl_delete">Delete</string>
+    <string name="msg_your_product_tr">Your product transaction is being reviewed!
+The product will be shipped shortly</string>
+    <string name="lbl_unit_price">Unit Price</string>
+    <string name="lbl_1500_002">\u20b11500.00                                         
+    </string>
+    <string name="msg_create_summary">Create Summary Report</string>
+    <string name="msg_kindle_candle_b">Kindle Candle Bottle</string>
+    <string name="msg_soy_wax_melts">- Soy wax melts are considered to be eco-friendly which means they are 100% natural, organic and non-toxic&#xd;
+
+- They are long lasting melts and it burns much more slowly than other melts.</string>
+    <string name="lbl_size_50_ml2">Size: 50 ml</string>
+    <string name="lbl_card_number">Card Number</string>
+    <string name="msg_incorrect_usern"> incorrect username or password</string>
+    <string name="msg_new_featured_pr">New Featured Product</string>
+    <string name="lbl_158_00">\u20b1 158.00</string>
+    <string name="lbl_added_to_cart">Added to Cart!</string>
+    <string name="lbl_gcash">GCash</string>
+    <string name="msg_standard_shippi4">Standard Shipping
+Kindle Xpress - 1446216267DC</string>
+    <string name="lbl_sales_in_pesos">Sales in Pesos</string>
+    <string name="lbl_address_1">Address 1</string>
+    <string name="msg_standard_shippi3">Standard Shipping
+Kindle Xpress - 1476219897AK</string>
+    <string name="msg_standard_shippi2">Standard Shipping
+Kindle Xpress - 1597219891MK</string>
+    <string name="lbl_leni_robredo">Leni Robredo</string>
+    <string name="msg_total_order_1">Total Order (1 Item/s):</string>
+    <string name="lbl_english">English</string>
+    <string name="lbl_view_my_cart">View My Cart</string>
+    <string name="msg_facebook_passwo">Facebook Password</string>
+    <string name="msg_account_informa">Account Information</string>
+    <string name="msg_total_order_3">Total Order (3 Items):</string>
+    <string name="msg_no_need_to_fret">No need to fret. More payment options for you soon.</string>
+    <string name="msg_total_order_4">Total Order (4 Item/s):</string>
+    <string name="lbl_qwerty_12345">Qwerty@12345!</string>
+    <string name="msg_php_1_500_500_0">Php 1,500,500.00</string>
+    <string name="lbl_stocks_left_11">Stocks left: 11</string>
+    <string name="lbl_230202ccc11cc1">230202CCC11CC1</string>
+    <string name="msg_edit_personal_i">Edit Personal Information</string>
+    <string name="lbl_log_in">Log in</string>
+    <string name="lbl_admin_profile">Admin Profile</string>
+    <string name="lbl_change_password">Change Password</string>
+    <string name="msg_sample_username">Sample Username here</string>
+    <string name="msg_click_anywhere">Click anywhere to cancel clear attempt.
+Click OK to continue clearing.</string>
+    <string name="lbl_shipping_fee">Shipping Fee:</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="msg_3_000_00_1_5">
+\u20b13,000.00  \u20b11,500.00                                         
+    </string>
+    <string name="msg_sample_name_her">Sample Name Here</string>
+    <string name="lbl_create">Create</string>
+    <string name="msg_create_new_feat">Create New Featured Product</string>
+    <string name="lbl_linked_socials">Linked Socials</string>
+    <string name="lbl_3_000_00">3,000.00</string>
+    <string name="lbl_sign_up2">SIGN UP</string>
+    <string name="lbl_sign_up3">Sign Up</string>
+    <string name="lbl_stocks_left_15">Stocks left: 15</string>
+    <string name="msg_recent_order_de">Recent Order Details</string>
+    <string name="lbl_quantity">Quantity</string>
+    <string name="lbl_privacy">Privacy</string>
+    <string name="lbl_admin_socials">Admin Socials</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="msg_3_000_00">\u20b1  3,000.00
+      2,500.00</string>
+    <string name="lbl_save">Save</string>
+    <string name="msg_02_02_2023_11_5">02-02-2023 11:59</string>
+    <string name="lbl_edit_product">Edit Product</string>
+    <string name="lbl_to_ship">To Ship</string>
+    <string name="lbl_2_500_002">      2,500.00</string>
+    <string name="lbl_2_500_003">\u20b12,500.00                                         
+    </string>
+    <string name="msg_we_re_sorry_to">"We're sorry to hear that you've cancelled 
+your order. Thank you for considering us, 
+and we hope to see you again soon!"</string>
+    <string name="lbl_gcash_e_wallet">GCash e-Wallet</string>
+    <string name="msg_i_agree_with_th2">I Agree with the </string>
+    <string name="lbl_my_products">My Products</string>
+    <string name="msg_3_000_00_2_5">
+\u20b13,000.00  \u20b12,500.00                                         
+    </string>
+    <string name="lbl_items_sold_49">Items Sold: 49</string>
+    <string name="lbl_how_did_we_do">How did we do?</string>
+    <string name="msg_give_us_feedbac">Give us Feedback</string>
+    <string name="lbl_and2"> and </string>
+    <string name="lbl_500_00">,500.00</string>
+    <string name="lbl_name_of_product">Name of Product</string>
+    <string name="msg_candle_of_the_w">Candle of the Week!</string>
+    <string name="msg_cash_on_deliver">Cash on Delivery</string>
+    <string name="lbl_products_sold">PRODUCTS SOLD</string>
+    <string name="lbl_next">Next</string>
+    <string name="msg_kindle_bottle_c">Kindle Bottle Candles</string>
+    <string name="lbl_successful">SUCCESSFUL!</string>
+    <string name="lbl_or_login_with">or login with</string>
+    <string name="lbl_summary_report">Summary Report</string>
+    <string name="msg_already_have_an">Already have an account? Sign In</string>
+    <string name="lbl_peppermint">Peppermint</string>
+    <string name="lbl_meet_the_owners">MEET THE OWNERS</string>
+    <string name="lbl_add_to_cart2">ADD TO CART</string>
+    <string name="msg_length_width">Length:\u2028Width:\u2028Height:\u2028Weight:\u2028Ingredients:</string>
+    <string name="msg_kindle_mini_pot">Kindle Mini Pot Candles</string>
+    <string name="lbl_stocks_left_8">Stocks left: 8</string>
+    <string name="lbl_sign_in">Sign in</string>
+    <string name="lbl_okay">Okay</string>
+    <string name="lbl_230101aaa00aa0">230101AAA00AA0</string>
+    <string name="lbl_tvsmix18">Tvsmix18</string>
+    <string name="msg_scents_unscent">Scents: Unscented</string>
+    <string name="msg_item_name_32">ITEM NAME
+
+\u20b1  3,000.00
+      2,500.00</string>
+    <string name="msg_item_name_33">ITEM NAME
+
+\u20b1  3,000.00  
+      1,500.00</string>
+    <string name="lbl_stock_15_left">Stock: 15 Left</string>
+    <string name="msg_item_name_34">ITEM NAME
+
+\u20b1  3,000.00</string>
+    <string name="msg_personal_inform">Personal Information</string>
+    <string name="msg_please_change_y">Please change your password. Your password should be minimum of 8 characters, with a capital letter and small letters combined.</string>
+    <string name="msg_give_us_your_fe">Give us your feedback</string>
+    <string name="msg_confirm_payment">Confirm Payment?</string>
+    <string name="lbl_750_003">\u20b1  750.00
+     </string>
+    <string name="lbl_reset">Reset</string>
+    <string name="lbl_750_002">\u20b1750.00                                         
+    </string>
+    <string name="msg_60_pina_st_gr">60 Pina St., Gracepark Malabon City</string>
+    <string name="lbl_3_000_004">\u20b1  3,000.00</string>
+    <string name="msg_you_currently_h">You Currently Have no Active Payment Method. 
+
+Add one now.</string>
+    <string name="lbl_stocks_left_23">Stocks left: 23</string>
+    <string name="lbl_size_of_product">Size of Product</string>
+    <string name="lbl_stocks_left_30">Stocks left: 30</string>
+    <string name="lbl_xxxx_xxxx_xxx">xxxx-xxxx-xxx</string>
+    <string name="msg_adding_payment">Adding Payment Method</string>
+    <string name="lbl_3_000_002">3,000.00
+</string>
+    <string name="lbl_3_000_003">3,000.00  
+</string>
+    <string name="lbl_best_seller">BEST SELLER</string>
+    <string name="msg_paymaya_philipp">PayMaya Philippines Inc.</string>
+    <string name="lbl_terms">Terms</string>
+    <string name="lbl_log_in_as_user">Log in as User</string>
+    <string name="lbl_cancelled">Cancelled</string>
+    <string name="msg_change_successf">Change Successful!</string>
+    <string name="lbl_citronella">Citronella</string>
+    <string name="lbl_upload_image">Upload Image</string>
+    <string name="lbl_clear">Clear</string>
+    <string name="msg_size_of_product">Size of Product (in cm)</string>
+    <string name="lbl_116_00">\u20b1 116.00</string>
+    <string name="msg_sampleemail_gma">sampleemail@gmail.com</string>
+    <string name="msg_to_continue_go">To continue, Google will share your name, email address, language preference, and profile picture with Kindle accounts. Before using this app, you can check privacy policy and terms of service of Kindle accounts.</string>
+    <string name="msg_kindle_ph_e_com">Kindle PH E-commerce Version  1.0</string>
+    <string name="msg_unit_no_house">Unit No. House No., </string>
+    <string name="msg">****************************</string>
+    <string name="lbl_twitter">Twitter</string>
+    <string name="lbl_confirm">Confirm</string>
+    <string name="lbl_999_00">\u20b1  999.00</string>
+    <string name="msg_scents_lavende">Scents: Lavender</string>
+    <string name="msg_debit_credit">Debit / Credit Card</string>
+    <string name="lbl_payment_methods">Payment Methods</string>
+    <string name="lbl_qty_2">Qty: 2</string>
+    <string name="lbl_qty_1">Qty: 1</string>
+    <string name="lbl_96">96</string>
+    <string name="msg_kindle_mini_pot2">Kindle Mini Pot 
+Scented Soy Candles</string>
+    <string name="msg_continue_on_kin">Continue on Kindle </string>
+    <string name="lbl_admin_log_in">ADMIN LOG IN</string>
+    <string name="msg_3_000_002">\u20b1  3,000.00
+      1,500.00</string>
+    <string name="msg_customer_name">Customer Name: Aldrin Patrick Ong</string>
+    <string name="msg_choose_a_differ">Choose a different location to </string>
+    <string name="msg_account_setting">Account Settings</string>
+    <string name="msg_lorem_ipsum_dol">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae ex sit amet ligula pretium pulvinar a at elit. </string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_facebook">Facebook</string>
+    <string name="msg_account_success">Account Successfully Deleted!</string>
+    <string name="lbl_my_cart">My Cart</string>
+    <string name="msg_pick_up_your_pa">pick up your package</string>
+    <string name="msg_total_3_item">Total (3 item):         \u20b1 198.00  </string>
+    <string name="lbl_php_50">PHP 50</string>
+    <string name="msg_log_into_your_f">Log into your Facebook account to
+connect to Kindle</string>
+    <string name="msg_receive_by_01_j">Receive by 01 Jan - 31 Jan</string>
+    <string name="lbl_checkout">Checkout</string>
+    <string name="lbl_90_00">\u20b1 90.00</string>
+    <string name="msg_your_password_h">Your password has been changed. You may now go back to the log in page and use your new credentials to log in to the application.</string>
+    <string name="msg_what_did_you_fi">What did you find best/worst</string>
+    <string name="lbl_2138275627"> 2138275627</string>
+    <string name="lbl_contact_number">Contact Number</string>
+    <string name="lbl_item_name3">ITEM NAME
+</string>
+    <string name="lbl_mobile_number">Mobile Number</string>
+    <string name="msg_to_continue_go2">To continue, Google will share your name, email address, language preference, and profile picture with Kindle accounts. Before using this app, you can check</string>
+    <string name="lbl_item_name2">ITEM NAME</string>
+    <string name="lbl_sign_in2">Sign In</string>
+    <string name="msg_emergency_conta">Emergency Contact Person</string>
+    <string name="msg_your_product_is2">Your product is on the way and scheduled to
+arrive soon. We can\u2019t wait for you to receive
+your purchase!</string>
+    <string name="msg_standard_shippi">Standard Shipping
+Kindle Xpress - 0192819912JK</string>
+    <string name="lbl_debit_credit">Debit/Credit</string>
+    <string name="lbl_address">Address: </string>
+    <string name="lbl_jane_d_doe">Jane D. Doe</string>
+    <string name="msg_your_creation_o">Your creation of a new featured product is successful! Click the \u2018Go Back\u2019 button to Continue.</string>
+    <string name="msg_i_agree_with_th">I Agree with the Privacy and Policy</string>
+    <string name="msg_address_60_pin">Address: 60 Pina St., Gracepark Malabon City</string>
+    <string name="lbl_php_49">PHP 49</string>
+    <string name="msg_please_enter_valid_pa">Please enter valid password</string>
+    <string name="msg_please_enter_valid_email">Please enter valid email</string>
+    <string name="msg_please_enter_valid_text">Please enter valid text</string>
+    <string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+    <string name="msg_camera_storage_permission">This Application need permission\n1.Camera permission to capture the image.\n2.Storage Access permission to save the captured image.</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="lbl_gallery">Gallery</string>
+</resources>

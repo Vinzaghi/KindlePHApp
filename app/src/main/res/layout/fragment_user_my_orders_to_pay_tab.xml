@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="userMyOrdersToPayTabVM" type="com.kindleapp.app.modules.usermyorderstopaytab.data.viewmodel.UserMyOrdersToPayTabVM"/>
+    </data>
+    <ScrollView android:clipToPadding="false"
+        android:fillViewport="true"
+        android:id="@+id/scrollViewScrollview"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearProduct4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_12">
+            <TextView android:ellipsize="end" android:id="@+id/txtToPay"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{userMyOrdersToPayTabVM.userMyOrdersToPayTabModel.txtToPay}"
+                style="@style/txtInterregular14_2" tools:text="@string/lbl_to_pay"/>
+            <LinearLayout android:id="@+id/linearToPayProduct"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_17pxv"
+                android:layout_marginEnd="@dimen/_18pxh"
+                android:layout_marginStart="@dimen/_18pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStylecornerRadius_6">
+                <ImageView android:id="@+id/imageImageSix"
+                    android:layout_height="@dimen/_96pxh"
+                    android:layout_marginBottom="@dimen/_29pxv"
+                    android:layout_width="@dimen/_103pxh"
+                    android:scaleType="fitXY"
+                    cornerRadius="@{@dimen/_20pxh}"
+                    imageRes="@{@drawable/img_image6_96x103}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image6_96x103"/>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumnkindleminipot"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.65"
+                    android:layout_width="0dp" android:orientation="vertical">
+                    <TextView android:id="@+id/txtKindleMiniPot"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="match_parent"
+                        android:text="@{userMyOrdersToPayTabVM.userMyOrdersToPayTabModel.txtKindleMiniPot}"
+                        style="@style/txtInterregular14" tools:text="@string/msg_kindle_mini_pot2"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtScentsLavende"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{userMyOrdersToPayTabVM.userMyOrdersToPayTabModel.txtScentsLavende}"
+                        style="@style/txtInterregular12_1" tools:text="@string/msg_scents_lavende"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtMeasurement"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{userMyOrdersToPayTabVM.userMyOrdersToPayTabModel.txtMeasurement}"
+                        style="@style/txtInterregular12_1" tools:text="@string/lbl_size_50ml"/>
+                    <LinearLayout android:id="@+id/linearRowprice"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_11pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtPrice"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:layout_weight="0.59"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{userMyOrdersToPayTabVM.userMyOrdersToPayTabModel.txtPrice}"
+                            style="@style/txtInterregular14" tools:text="@string/lbl_58_00"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtQtyCounter"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_99pxh"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_weight="0.41"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{userMyOrdersToPayTabVM.userMyOrdersToPayTabModel.txtQtyCounter}"
+                            style="@style/txtInterregular14" tools:text="@string/lbl_qty_1"/>
+                    </LinearLayout>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtPriceOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_11pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{userMyOrdersToPayTabVM.userMyOrdersToPayTabModel.txtPriceOne}"
+                        style="@style/txtInterregular14" tools:text="@string/msg_total_1_item"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

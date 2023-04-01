@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="storePageMemoryVM" type="com.kindleapp.app.modules.storepagememory.data.viewmodel.StorePageMemoryVM"/>
+    </data>
+    <ScrollView android:clipToPadding="false"
+        android:fillViewport="true"
+        android:id="@+id/scrollViewScrollview"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnfavorite"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <FrameLayout android:id="@+id/frameStackfavorite"
+                android:layout_height="@dimen/_185pxv"
+                android:layout_marginEnd="@dimen/_35pxh"
+                android:layout_marginStart="@dimen/_35pxh" android:layout_width="@dimen/_160pxh">
+                <ImageView android:id="@+id/imageFavorite"
+                    android:layout_gravity="bottom|end"
+                    android:layout_height="@dimen/_9pxh"
+                    android:layout_marginBottom="@dimen/_66pxv"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_66pxv"
+                    android:layout_width="@dimen/_13pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_favorite_green_801"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_favorite_green_801"/>
+                <ImageView android:id="@+id/imageImageSeven"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_185pxh"
+                    android:layout_width="@dimen/_160pxh"
+                    android:scaleType="fitXY"
+                    cornerRadius="@{@dimen/_15pxh}"
+                    imageRes="@{@drawable/img_image7}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image7"/>
+            </FrameLayout>
+            <TextView android:id="@+id/txtPrice"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_35pxh"
+                android:layout_marginStart="@dimen/_35pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="wrap_content"
+                android:text="@{storePageMemoryVM.storePageMemoryModel.txtPrice}"
+                style="@style/txt_2" tools:text="@string/msg_item_name_1"/>
+            <LinearLayout android:id="@+id/linearRowhomepage"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_348pxv"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStylegreen_801cornerRadius">
+                <ImageView android:id="@+id/imageHomePage"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginBottom="@dimen/_37pxv"
+                    android:layout_marginStart="@dimen/_49pxh"
+                    android:layout_marginTop="@dimen/_21pxv"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_homepage"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_homepage"/>
+                <ImageView android:id="@+id/imageOnlineStore"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginBottom="@dimen/_37pxv"
+                    android:layout_marginStart="@dimen/_50pxh"
+                    android:layout_marginTop="@dimen/_21pxv"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_onlinestore"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_onlinestore"/>
+                <ImageView android:id="@+id/imageShoppingCart"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginBottom="@dimen/_37pxv"
+                    android:layout_marginStart="@dimen/_49pxh"
+                    android:layout_marginTop="@dimen/_21pxv"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_shoppingcart"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_shoppingcart"/>
+                <ImageView android:id="@+id/imageUser"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginBottom="@dimen/_37pxv"
+                    android:layout_marginEnd="@dimen/_44pxh"
+                    android:layout_marginStart="@dimen/_50pxh"
+                    android:layout_marginTop="@dimen/_21pxv"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_user_37x37"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_user_37x37"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="paymentMenuRowModel" type="com.kindleapp.app.modules.paymentmenu.data.model.PaymentMenuRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowgcash"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:id="@+id/linearGcash"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.82" android:layout_width="0dp"
+            android:orientation="horizontal" style="@style/groupStylecornerRadius_5">
+            <ImageView android:id="@+id/imageImageTwo"
+                android:layout_height="@dimen/_34pxh"
+                android:layout_width="@dimen/_35pxh"
+                android:scaleType="fitXY"
+                cornerRadius="@{@dimen/_15pxh}"
+                imageRes="@{@drawable/img_image2_34x30}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_image2_34x30"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtGCash"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5pxv"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_weight="0.61" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{paymentMenuRowModel.txtGCash}"
+                style="@style/txtNunitosemibold18" tools:text="@string/lbl_gcash"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageChevronRight"
+            android:layout_height="@dimen/_22pxh"
+            android:layout_marginBottom="@dimen/_6pxv"
+            android:layout_marginStart="@dimen/_193pxh"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_width="@dimen/_22pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_chevronright"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_chevronright"/>
+    </LinearLayout>
+</layout>

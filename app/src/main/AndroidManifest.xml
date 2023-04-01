@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.kindleapp.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.kindleapp.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" android:name="com.facebook.FacebookActivity"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" android:name="com.facebook.FacebookActivity"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" android:name="com.facebook.FacebookActivity"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kindleapp.app.modules.itemfive.ui.ItemFiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.admineditpersonalinformation.ui.AdminEditPersonalInformationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.editproductssuccessful.ui.EditProductsSuccessfulActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.forgetpasspassword.ui.ForgetPassPasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.admindeleteaccount.ui.AdminDeleteAccountActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.facebook.ui.FacebookActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.adminlogoutconfirmation.ui.AdminLogOutConfirmationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.paymentdebitcredit.ui.PaymentDebitCreditActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.addedtocart.ui.AddedToCartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.item5cart.ui.Item5CartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.usermyorderstoshiptab1.ui.UserMyOrdersToShipTab1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.reckindleminipotandscented.ui.RecKindleMiniPotAndScentedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.personalinformationsave.ui.PersonalInformationSaveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.allkindleminipotscentedsoycandles.ui.AllKindleMiniPotScentedSoyCandlesActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.userhomepage.ui.UserHomePageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.allkindlescentedsoywaxmelts.ui.AllKindleScentedSoyWaxMeltsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.createproductsuccessful.ui.CreateProductSuccessfulActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.succesfulfeaturedcreate.ui.SuccesfulFeaturedCreateActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.itemone.ui.ItemOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.createnewproduct.ui.CreateNewProductActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.adminprofile.ui.AdminProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.filterbutton.ui.FilterButtonActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.customerfeedback.ui.CustomerFeedbackActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.allkindlescentedsoywaxmeltscancelled.ui.AllKindleScentedSoyWaxMeltsCancelledActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.paymentgcash.ui.PaymentGcashActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.personalinformationclear.ui.PersonalInformationClearActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.loginadmin.ui.LogInAdminActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.item4cart.ui.Item4CartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.paymentmenu.ui.PaymentMenuActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.loadingscreen.ui.LoadingScreenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.itemtwo.ui.ItemTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.adminchangepassword.ui.AdminChangePasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.aboutpage.ui.AboutPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.item1cart.ui.Item1CartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.item2cart.ui.Item2CartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.usercart.ui.UserCartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.dashboardhome.ui.DashboardHomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.allkindlememoryandminipot.ui.AllKindleMemoryAndMiniPotActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.changepasswordfour1.ui.ChangePasswordFour1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.adminchangesocials.ui.AdminChangeSocialsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.google.ui.GoogleActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.loginscreen.ui.LogInScreenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.toreckindlememoryandminipot.ui.ToRecKindleMemoryAndMiniPotActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.storepagememory1.ui.StorePageMemory1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.adminsuccessfullyeditpersonalinformation.ui.AdminSuccessfullyEditPersonalInformationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.itemsix.ui.ItemSixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.allkindleminipotandscented.ui.AllKindleMiniPotAndScentedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.createnewfeaturedproduct.ui.CreateNewFeaturedProductActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.myproducts.ui.MyProductsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.mysales.ui.MySalesActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.shipkindlescentedsoywaxmelts.ui.ShipKindleScentedSoyWaxMeltsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.loginerrorscreen.ui.LogInErrorScreenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.forgetpasssuccessful.ui.ForgetPassSuccessfulActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.cankindlescentedsoywaxmeltscancelled.ui.CanKindleScentedSoyWaxMeltsCancelledActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.signupsuccessful.ui.SignUpSuccessfulActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.userpaymentmethod.ui.UserPaymentMethodActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.usercheckoutconfirmation.ui.UserCheckoutConfirmationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.itemseven.ui.ItemSevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.adminsuccessfullychangepassword.ui.AdminSuccessfullyChangePasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.delete.ui.DeleteActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.loginadminerror.ui.LogInAdminErrorActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.personalinformation.ui.PersonalInformationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.item3cart.ui.Item3CartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.paykindleminipotscentedsoycandles.ui.PayKindleMiniPotScentedSoyCandlesActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.loadingscreentwo.ui.LoadingScreenTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.forgetpassemail.ui.ForgetPassEmailActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.myprofile.ui.MyProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.admindeleteaccountone.ui.AdminDeleteAccountOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.createsumaryreport.ui.CreateSumaryReportActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.paymentpaymaya.ui.PaymentPaymayaActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.viewtransactions.ui.ViewTransactionsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.editproducts.ui.EditProductsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.itemthree.ui.ItemThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.previewforusers.ui.PreviewForUsersActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.signuppage.ui.SignUpPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindleapp.app.modules.myproductsafterdelete.ui.MyProductsAfterDeleteActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.kindleapp.app.modules.loadingscreenone.ui.LoadingScreenOneActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kindleapp.app.modules.itemfour.ui.ItemFourActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

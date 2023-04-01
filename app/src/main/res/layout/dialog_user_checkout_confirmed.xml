@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="userCheckoutConfirmedVM" type="com.kindleapp.app.modules.usercheckoutconfirmed.data.viewmodel.UserCheckoutConfirmedVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearUserCheckoutC"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" android:orientation="vertical">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearConfirmed"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_300pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_11">
+            <ImageView android:id="@+id/imageCheckTwentyOne"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_61pxh"
+                android:layout_marginEnd="@dimen/_47pxh"
+                android:layout_marginStart="@dimen/_47pxh"
+                android:layout_marginTop="@dimen/_22pxv"
+                android:layout_width="@dimen/_61pxh"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_check21}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_check21"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtWereonit"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_47pxh"
+                android:layout_marginStart="@dimen/_47pxh"
+                android:layout_marginTop="@dimen/_9pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{userCheckoutConfirmedVM.userCheckoutConfirmedModel.txtWereonit}"
+                style="@style/txtInterbold24_2" tools:text="@string/lbl_we_re_on_it"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_47pxh"
+                android:layout_marginStart="@dimen/_47pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:text="@{userCheckoutConfirmedVM.userCheckoutConfirmedModel.txtDescription}"
+                style="@style/txtInterbold14_1" tools:text="@string/msg_your_payment_ha"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnReturnToHome"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20pxv"
+                android:layout_marginEnd="@dimen/_47pxh"
+                android:layout_marginStart="@dimen/_47pxh"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_8pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_8pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_return_to_home"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_8" tools:text="@string/lbl_return_to_home"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="gridplus1RowModel" type="com.kindleapp.app.modules.succesfulfeaturedcreate.data.model.Gridplus1RowModel"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnplus"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_5">
+        <ImageView android:id="@+id/imagePlus"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_18pxh"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="@dimen/_18pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_plus"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_plus"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtAddImage"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_21pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{gridplus1RowModel.txtAddImage}"
+            style="@style/txtIntermedium12" tools:text="@string/lbl_add_image"/>
+    </LinearLayout>
+</layout>

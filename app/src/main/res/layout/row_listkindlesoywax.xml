@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listkindlesoywaxRowModel" type="com.kindleapp.app.modules.myproducts.data.model.ListkindlesoywaxRowModel"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumnkindlesoywax"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical" style="@style/groupStylecornerRadius_1">
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtKindleSoyWax"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{listkindlesoywaxRowModel.txtKindleSoyWax}"
+            style="@style/txtInterbold14" tools:text="@string/msg_kindle_soy_wax"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtPrice"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{listkindlesoywaxRowModel.txtPrice}"
+            style="@style/txtInterbold12" tools:text="@string/lbl_php_50"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtStock15Left"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_2pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{listkindlesoywaxRowModel.txtStock15Left}"
+            style="@style/txtInterbold10" tools:text="@string/lbl_stock_15_left"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowgroup288"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_7pxv"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtGroup288"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" android:layout_width="0dp"
+                android:paddingBottom="@dimen/_1pxv"
+                android:paddingEnd="@dimen/_21pxh"
+                android:paddingStart="@dimen/_18pxh"
+                android:paddingTop="@dimen/_1pxv"
+                android:singleLine="true"
+                android:text="@{listkindlesoywaxRowModel.txtGroup288}"
+                style="@style/txtSolidRounded" tools:text="@string/lbl_edit"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtGroup8799"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_4pxh"
+                android:layout_weight="0.5" android:layout_width="0dp"
+                android:paddingBottom="@dimen/_1pxv"
+                android:paddingStart="@dimen/_13pxh"
+                android:paddingTop="@dimen/_1pxv"
+                android:singleLine="true"
+                android:text="@{listkindlesoywaxRowModel.txtGroup8799}"
+                style="@style/txtSolidRounded_1" tools:text="@string/lbl_delete"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

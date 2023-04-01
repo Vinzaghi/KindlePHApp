@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="mySalesVM" type="com.kindleapp.app.modules.mysales.data.viewmodel.MySalesVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumnmysales"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylelime_100">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:contentInsetStart="0dp" style="@style/groupStylegreen_801cornerRadius">
+            <LinearLayout android:id="@+id/linearRowmysales"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_26pxh"
+                android:layout_marginStart="@dimen/_141pxh"
+                android:layout_marginTop="@dimen/_74pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtMySales"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.8"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{mySalesVM.mySalesModel.txtMySales}"
+                    style="@style/txtInterbold24" tools:text="@string/lbl_my_sales"/>
+                <ImageView android:id="@+id/imageSettings"
+                    android:layout_height="@dimen/_23pxh"
+                    android:layout_marginBottom="@dimen/_7pxv"
+                    android:layout_marginStart="@dimen/_89pxh"
+                    android:layout_width="@dimen/_26pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_settings"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_settings"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearMySales"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_47pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylelime_100">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:id="@+id/linearRowsalesinpesos"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_5pxh"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <LinearLayout android:gravity="center_horizontal"
+                        android:id="@+id/linearColumnsalesinpesos"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:orientation="vertical" style="@style/groupStylewhite_8">
+                        <TextView android:ellipsize="end"
+                            android:gravity="start"
+                            android:id="@+id/txtSalesinPesos"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/_9pxv"
+                            android:layout_marginEnd="@dimen/_12pxh"
+                            android:layout_marginStart="@dimen/_12pxh"
+                            android:layout_marginTop="@dimen/_114pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{mySalesVM.mySalesModel.txtSalesinPesos}"
+                            style="@style/txtInterbold16" tools:text="@string/lbl_sales_in_pesos"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_horizontal"
+                        android:id="@+id/linearColumnproductssold"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_8pxh"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:orientation="vertical" style="@style/groupStylewhite_8">
+                        <TextView android:ellipsize="end"
+                            android:gravity="start"
+                            android:id="@+id/txtProductsSold"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/_8pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_115pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{mySalesVM.mySalesModel.txtProductsSold}"
+                            style="@style/txtInterbold16" tools:text="@string/lbl_products_sold2"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumntransactionper"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_25pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_8">
+                    <TextView android:ellipsize="end"
+                        android:gravity="start"
+                        android:id="@+id/txtTransactionper"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_9pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_11pxh"
+                        android:layout_marginTop="@dimen/_84pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{mySalesVM.mySalesModel.txtTransactionper}"
+                        style="@style/txtInterbold16" tools:text="@string/msg_transaction_per"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/green_800"
+                android:id="@+id/lineLineFourteen"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_2pxv"
+                android:layout_marginEnd="@dimen/_6pxh"
+                android:layout_marginStart="@dimen/_6pxh"
+                android:layout_marginTop="@dimen/_36pxv" android:layout_width="@dimen/_323pxh"/>
+            <LinearLayout android:id="@+id/linearRowplus"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2pxh"
+                android:layout_marginStart="@dimen/_2pxh"
+                android:layout_marginTop="@dimen/_26pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumnplus"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_8">
+                    <ImageView android:id="@+id/imagePlus"
+                        android:layout_height="@dimen/_26pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_width="@dimen/_26pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_plus"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_plus"/>
+                    <TextView android:id="@+id/txtCreateSummary"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_56pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{mySalesVM.mySalesModel.txtCreateSummary}"
+                        style="@style/txtInterbold16" tools:text="@string/msg_create_summary"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearColumnmenu"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_9pxh"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_8">
+                    <ImageView android:id="@+id/imageMenu"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_marginEnd="@dimen/_12pxh"
+                        android:layout_marginStart="@dimen/_12pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_19pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_menu"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_menu"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtViewTransactio"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15pxv"
+                        android:layout_marginEnd="@dimen/_8pxh"
+                        android:layout_marginStart="@dimen/_7pxh"
+                        android:layout_marginTop="@dimen/_74pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{mySalesVM.mySalesModel.txtViewTransactio}"
+                        style="@style/txtInterbold16" tools:text="@string/msg_view_transactio"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" style="@style/groupStylegreen_801cornerRadius">
+            <LinearLayout android:id="@+id/linearRowhomepage"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_37pxv"
+                android:layout_marginTop="@dimen/_21pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageHomePage"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginStart="@dimen/_50pxh"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_homepage"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_homepage"/>
+                <ImageView android:id="@+id/imageProduct"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginStart="@dimen/_48pxh"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_product"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_product"/>
+                <ImageView android:id="@+id/imageTotalSales"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginStart="@dimen/_52pxh"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_totalsales"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_totalsales"/>
+                <ImageView android:id="@+id/imageUser"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginEnd="@dimen/_43pxh"
+                    android:layout_marginStart="@dimen/_49pxh"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_user_37x37"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_user_37x37"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

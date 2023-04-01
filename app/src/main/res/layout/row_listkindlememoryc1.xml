@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listkindlememoryc1RowModel" type="com.kindleapp.app.modules.usermyorderstoreceivetab.data.model.Listkindlememoryc1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearToReceiveProd"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylecornerRadius_6">
+        <ImageView android:id="@+id/imageImageFifteen"
+            android:layout_height="@dimen/_96pxh"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_width="@dimen/_103pxh"
+            android:scaleType="fitXY" cornerRadius="@{@dimen/_20pxh}"
+            imageRes="@{@drawable/img_image15}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image15"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnkindlememoryc"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.65" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtKindleMemoryC"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listkindlememoryc1RowModel.txtKindleMemoryC}"
+                style="@style/txtInterregular14" tools:text="@string/msg_kindle_memory_c"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtScentsUnscent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listkindlememoryc1RowModel.txtScentsUnscent}"
+                style="@style/txtInterregular12_1" tools:text="@string/msg_scents_unscent"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMeasurement"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listkindlememoryc1RowModel.txtMeasurement}"
+                style="@style/txtInterregular12_1" tools:text="@string/msg_color_and_size"/>
+            <LinearLayout android:id="@+id/linearRowprice"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_27pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtPrice"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_weight="0.61"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{listkindlememoryc1RowModel.txtPrice}"
+                    style="@style/txtInterregular14" tools:text="@string/lbl_300_00"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtQtyCounter"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_89pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.39"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{listkindlememoryc1RowModel.txtQtyCounter}"
+                    style="@style/txtInterregular14" tools:text="@string/lbl_qty_2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

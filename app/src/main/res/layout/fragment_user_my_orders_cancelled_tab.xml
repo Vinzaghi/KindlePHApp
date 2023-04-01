@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="userMyOrdersCancelledTabVM" type="com.kindleapp.app.modules.usermyorderscancelledtab.data.viewmodel.UserMyOrdersCancelledTabVM"/>
+    </data>
+    <ScrollView android:clipToPadding="false"
+        android:fillViewport="true"
+        android:id="@+id/scrollViewScrollview"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearRowcancelled"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal" style="@style/groupStylewhite_12">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumncancelled"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_75pxv"
+                android:layout_marginStart="@dimen/_18pxh"
+                android:layout_marginTop="@dimen/_12pxv"
+                android:layout_weight="0.35" android:layout_width="0dp" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtCancelled"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_2pxh"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{userMyOrdersCancelledTabVM.userMyOrdersCancelledTabModel.txtCancelled}"
+                    style="@style/txtInterregular14_2" tools:text="@string/lbl_cancelled"/>
+                <ImageView android:id="@+id/imageImageSix"
+                    android:layout_height="@dimen/_96pxh"
+                    android:layout_marginTop="@dimen/_6pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    cornerRadius="@{@dimen/_20pxh}"
+                    imageRes="@{@drawable/img_image6_1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image6_1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumnkindlescented"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_11pxv"
+                android:layout_marginEnd="@dimen/_17pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_36pxv"
+                android:layout_weight="0.65" android:layout_width="0dp" android:orientation="vertical">
+                <TextView android:id="@+id/txtKindleScented"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_width="match_parent"
+                    android:text="@{userMyOrdersCancelledTabVM.userMyOrdersCancelledTabModel.txtKindleScented}"
+                    style="@style/txtInterregular14" tools:text="@string/msg_kindle_scented"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtScentsCherry"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{userMyOrdersCancelledTabVM.userMyOrdersCancelledTabModel.txtScentsCherry}"
+                    style="@style/txtInterregular12_1" tools:text="@string/lbl_scents_cherry"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtWeight"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{userMyOrdersCancelledTabVM.userMyOrdersCancelledTabModel.txtWeight}"
+                    style="@style/txtInterregular12_1" tools:text="@string/lbl_size_30g"/>
+                <LinearLayout android:id="@+id/linearRowprice"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_2pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtPrice"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_weight="0.59"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{userMyOrdersCancelledTabVM.userMyOrdersCancelledTabModel.txtPrice}"
+                        style="@style/txtInterregular14" tools:text="@string/lbl_50_00"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtQtyCounter"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_99pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_weight="0.41"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{userMyOrdersCancelledTabVM.userMyOrdersCancelledTabModel.txtQtyCounter}"
+                        style="@style/txtInterregular14" tools:text="@string/lbl_qty_1"/>
+                </LinearLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtPriceOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{userMyOrdersCancelledTabVM.userMyOrdersCancelledTabModel.txtPriceOne}"
+                    style="@style/txtInterregular14" tools:text="@string/msg_total_1_item2"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtBuyagainBtn"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginStart="@dimen/_96pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="wrap_content"
+                    android:paddingBottom="@dimen/_2pxv"
+                    android:paddingEnd="@dimen/_14pxh"
+                    android:paddingStart="@dimen/_14pxh"
+                    android:paddingTop="@dimen/_5pxv"
+                    android:singleLine="true"
+                    android:text="@{userMyOrdersCancelledTabVM.userMyOrdersCancelledTabModel.txtBuyagainBtn}"
+                    style="@style/txtSolidRounded_3" tools:text="@string/lbl_buy_again"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

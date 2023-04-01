@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="filterButtonVM" type="com.kindleapp.app.modules.filterbutton.data.viewmodel.FilterButtonVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnkindlelogoone"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_488pxv"
+        android:layout_marginEnd="@dimen/_44pxh"
+        android:layout_marginStart="@dimen/_26pxh"
+        android:layout_marginTop="@dimen/_103pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearFilterButton"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <ImageView android:gravity="end"
+                    android:id="@+id/imageKindleLogoOne"
+                    android:layout_height="@dimen/_105pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_kindlelogo1_105x120}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_kindlelogo1_105x120"/>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumnrectangle4328"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_30pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowrectangle4328"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <View
+                            android:background="@drawable/rectangle_border_black_900_radius_7"
+                            android:id="@+id/viewRectangle4328"
+                            android:layout_height="@dimen/_24pxh" android:layout_width="@dimen/_26pxh"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtToday"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:layout_marginStart="@dimen/_8pxh"
+                            android:layout_marginTop="@dimen/_2pxv"
+                            android:layout_weight="0.65"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{filterButtonVM.filterButtonModel.txtToday}"
+                            style="@style/txtInterbold16" tools:text="@string/lbl_today"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowrectangle4329"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_6pxh"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <View
+                            android:background="@drawable/rectangle_border_black_900_radius_7"
+                            android:id="@+id/viewRectangle4329"
+                            android:layout_height="@dimen/_24pxh"
+                            android:layout_marginBottom="@dimen/_1pxv" android:layout_width="@dimen/_26pxh"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtWeekly"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_8pxh"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_weight="0.69"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{filterButtonVM.filterButtonModel.txtWeekly}"
+                            style="@style/txtInterbold16" tools:text="@string/lbl_weekly"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowrectangle4330"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <View
+                            android:background="@drawable/rectangle_border_black_900_radius_7"
+                            android:id="@+id/viewRectangle4330"
+                            android:layout_height="@dimen/_24pxh"
+                            android:layout_marginBottom="@dimen/_1pxv" android:layout_width="@dimen/_26pxh"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtMonthly"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_8pxh"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_weight="0.72"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{filterButtonVM.filterButtonModel.txtMonthly}"
+                            style="@style/txtInterbold16" tools:text="@string/lbl_monthly"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowrectangle4331"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <View
+                            android:background="@drawable/rectangle_border_black_900_radius_7"
+                            android:id="@+id/viewRectangle4331"
+                            android:layout_height="@dimen/_24pxh"
+                            android:layout_marginBottom="@dimen/_1pxv" android:layout_width="@dimen/_26pxh"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtYearly"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_8pxh"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_weight="0.66"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{filterButtonVM.filterButtonModel.txtYearly}"
+                            style="@style/txtInterbold16" tools:text="@string/lbl_yearly"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

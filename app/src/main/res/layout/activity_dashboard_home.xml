@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="dashboardHomeVM" type="com.kindleapp.app.modules.dashboardhome.data.viewmodel.DashboardHomeVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameDashboardhome"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylelime_100">
+        <LinearLayout android:id="@+id/linearColumnrectangleeight"
+            android:layout_gravity="top|start"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnadministrator"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegreen_801cornerRadius">
+                <TextView android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtAdministrator"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_15pxv"
+                    android:layout_marginEnd="@dimen/_109pxh"
+                    android:layout_marginStart="@dimen/_117pxh"
+                    android:layout_marginTop="@dimen/_70pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{dashboardHomeVM.dashboardHomeModel.txtAdministrator}"
+                    style="@style/txtInterbold24" tools:text="@string/lbl_administrator"/>
+            </LinearLayout>
+            <HorizontalScrollView android:fillViewport="true"
+                android:id="@+id/horizontalScrollHorizontalscrollrectangleeight"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_41pxv"
+                android:layout_width="match_parent" android:scrollbars="none">
+                <FrameLayout android:id="@+id/frameStackrectangleeight"
+                    android:layout_height="@dimen/_182pxv" android:layout_width="@dimen/_390pxh">
+                    <ImageView android:id="@+id/imageRectangleEight"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_51pxv"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        cornerRadius="@{@dimen/_20pxh}"
+                        imageRes="@{@drawable/img_rectangle8}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle8"/>
+                    <LinearLayout android:id="@+id/linearColumn"
+                        android:layout_gravity="top|end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical" style="@style/groupStylecornerRadius">
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearRowprice"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="@dimen/_176pxh"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal" style="@style/groupStylecornerRadius">
+                            <LinearLayout
+                                android:gravity="center_horizontal"
+                                android:id="@+id/linearColumnprice"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.53"
+                                android:layout_width="0dp"
+                                android:orientation="vertical" style="@style/groupStylewhite_2">
+                                <TextView android:ellipsize="end"
+                                    android:gravity="center_horizontal"
+                                    android:id="@+id/txtPrice"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="@dimen/_27pxv"
+                                    android:layout_marginEnd="@dimen/_23pxh"
+                                    android:layout_marginStart="@dimen/_23pxh"
+                                    android:layout_marginTop="@dimen/_113pxv"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{dashboardHomeVM.dashboardHomeModel.txtPrice}"
+                                    style="@style/txtInterbold13" tools:text="@string/lbl_overall_sales"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:gravity="center_horizontal"
+                                android:id="@+id/linearColumnproductssold"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_18pxh"
+                                android:layout_weight="0.53"
+                                android:layout_width="0dp"
+                                android:orientation="vertical" style="@style/groupStylewhite_2">
+                                <TextView android:ellipsize="end"
+                                    android:gravity="start"
+                                    android:id="@+id/txtPRODUCTSSOLD"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="@dimen/_27pxv"
+                                    android:layout_marginEnd="@dimen/_19pxh"
+                                    android:layout_marginStart="@dimen/_19pxh"
+                                    android:layout_marginTop="@dimen/_113pxv"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{dashboardHomeVM.dashboardHomeModel.txtPRODUCTSSOLD}"
+                                    style="@style/txtInterbold13" tools:text="@string/lbl_products_sold"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="start"
+                                android:id="@+id/linearColumnitemname"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_1pxv"
+                                android:layout_marginStart="@dimen/_19pxh"
+                                android:layout_weight="0.53"
+                                android:layout_width="0dp"
+                                android:orientation="vertical" style="@style/groupStylewhite_2">
+                                <TextView android:ellipsize="end"
+                                    android:gravity="end"
+                                    android:id="@+id/txtItemName"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_6pxh"
+                                    android:layout_marginStart="@dimen/_17pxh"
+                                    android:layout_marginTop="@dimen/_67pxv"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{dashboardHomeVM.dashboardHomeModel.txtItemName}"
+                                    style="@style/txtInterbold24_1" tools:text="@string/lbl_item_name"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtBESTSELLER"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_37pxv"
+                                    android:layout_marginEnd="@dimen/_17pxh"
+                                    android:layout_marginStart="@dimen/_17pxh"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{dashboardHomeVM.dashboardHomeModel.txtBESTSELLER}"
+                                    style="@style/txtIntermedium13" tools:text="@string/lbl_best_seller"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </HorizontalScrollView>
+            <FrameLayout android:id="@+id/frameStackpriceOne"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_176pxv"
+                android:layout_marginEnd="@dimen/_27pxh"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginTop="@dimen/_14pxv" android:layout_width="@dimen/_333pxh">
+                <LinearLayout android:id="@+id/linearColumnpriceOne"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylegreen_802cornerRadius">
+                    <TextView android:ellipsize="end"
+                        android:gravity="start"
+                        android:id="@+id/txtPriceOne"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_127pxv"
+                        android:layout_marginEnd="@dimen/_29pxh"
+                        android:layout_marginStart="@dimen/_29pxh"
+                        android:layout_marginTop="@dimen/_19pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{dashboardHomeVM.dashboardHomeModel.txtPriceOne}"
+                        style="@style/txtInterbold13_1" tools:text="@string/lbl_sales_per_day"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/imageImageEighteen"
+                    android:layout_gravity="top|center"
+                    android:layout_height="@dimen/_163pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_39pxh"
+                    android:layout_marginStart="@dimen/_39pxh"
+                    android:layout_width="@dimen/_250pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_image18}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image18"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowplus"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_30pxh"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginTop="@dimen/_28pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumnplus"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_3">
+                    <ImageView android:id="@+id/imagePlus"
+                        android:layout_height="@dimen/_27pxh"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_width="@dimen/_27pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_plus"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_plus"/>
+                    <TextView android:id="@+id/txtCreateNewFeat"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_21pxv"
+                        android:layout_marginEnd="@dimen/_17pxh"
+                        android:layout_marginStart="@dimen/_17pxh"
+                        android:layout_marginTop="@dimen/_34pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{dashboardHomeVM.dashboardHomeModel.txtCreateNewFeat}"
+                        style="@style/txtInterbold13_2" tools:text="@string/msg_create_new_feat"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumneye"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15pxh"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_3">
+                    <ImageView android:id="@+id/imageEye"
+                        android:layout_height="@dimen/_21pxh"
+                        android:layout_marginEnd="@dimen/_15pxh"
+                        android:layout_marginStart="@dimen/_15pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="@dimen/_30pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_eye"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_eye"/>
+                    <TextView android:id="@+id/txtHomepageforUs"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_21pxv"
+                        android:layout_marginEnd="@dimen/_12pxh"
+                        android:layout_marginStart="@dimen/_12pxh"
+                        android:layout_marginTop="@dimen/_37pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{dashboardHomeVM.dashboardHomeModel.txtHomepageforUs}"
+                        style="@style/txtInterbold13_2" tools:text="@string/msg_homepage_for_us"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_gravity="bottom|start"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" style="@style/groupStylegreen_801cornerRadius">
+            <LinearLayout android:id="@+id/linearRowhomepage"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageHomePage"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginStart="@dimen/_49pxh"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_homepage"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_homepage"/>
+                <ImageView android:id="@+id/imageProduct"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginStart="@dimen/_48pxh"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_product"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_product"/>
+                <ImageView android:id="@+id/imageTotalSales"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginStart="@dimen/_52pxh"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_totalsales"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_totalsales"/>
+                <ImageView android:id="@+id/imageUser"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_37pxh"
+                    android:layout_marginEnd="@dimen/_44pxh"
+                    android:layout_marginStart="@dimen/_49pxh"
+                    android:layout_width="@dimen/_37pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_user_37x37"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_user_37x37"/>
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</layout>
